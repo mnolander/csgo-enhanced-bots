@@ -8,4 +8,8 @@ Expert bots in CS:GO can be still too easy to play against, so this new bot prof
  - Bots modeled after recent professional teams, with each player having stats roughly matching their skill
  
  ## Instructions
- - Simply replace your existing botprofile.db file (located in ...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo) and ensure Expert bots are selected in-game!
+ - Simply replace your existing botprofile.db file (located in ...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo) and ensure Expert bots are selected in-game, since any bots below Expert have not been modified.
+ 
+ ## Notes
+ - The Sniper and SniperPro buy profiles are very similar, but the Sniper profile will buy a rifle (AK/M4) first, and then an AWP when the bot can afford it. The SniperPro profile will make the bot buy a Scout until it can afford an AWP.
+ - I highly recommend pairing this with [some improved map navmeshes](https://github.com/manicogaming/NavMeshes) that can help with the bots' decision making and removes some spots where bots can get stuck on some maps.
