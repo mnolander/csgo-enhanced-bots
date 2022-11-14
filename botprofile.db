@@ -662,6 +662,16 @@ End
 
 // **Astralis**
 
+EliteAwp+SniperPro "device"
+	VoicePitch = 95
+    Aggression = 20
+    ReactionTime = 0.00000000000001
+	AimFocusInitial = 0.000000000001
+	AimFocusDecay = 0.0000000000000001
+	AimFocusOffsetScale = 0.0000000001
+	AimfocusInterval = 0.00000000000001
+End
+
 Elite+Rifle blameF 
 	VoicePitch = 80
     Aggression = 25
@@ -672,14 +682,14 @@ Elite+Rifle blameF
 	AimfocusInterval = 0.00000000000001
 End 
 
-Elite+RifleT k0nfig
+Elite+RifleT MistR
 	VoicePitch = 80
     Aggression = 50
-    ReactionTime = 0.0000000000000001
-	AimFocusInitial = 0.00000000001
-	AimFocusDecay = 0.00000000000001
-	AimFocusOffsetScale = 0.00000001
-	AimfocusInterval = 0.00000000001
+    ReactionTime = 0.01
+	AimFocusInitial = 0.01
+	AimFocusDecay = 0.01
+	AimFocusOffsetScale = 0.01
+	AimfocusInterval = 0.01
 End 
 
 Elite+Rifle "Xyp9x"
@@ -700,16 +710,6 @@ Elite+Rifle "gla1ve"
 	AimFocusDecay = 0.001
 	AimFocusOffsetScale = 0.001
 	AimfocusInterval = 0.001
-End
-
-Elite+SniperPro "Farlig"
-	VoicePitch = 80
-    Aggression = 80
-    ReactionTime = 0.001
-	AimFocusInitial = 0.001
-	AimFocusDecay = 0.001
-	AimFocusOffsetScale = 0.001
-	AimfocusInterval = 0.0001
 End
 
 // **Natus Vincere**
@@ -768,52 +768,52 @@ End
 
 Elite+RifleT nitr0
 	VoicePitch = 95
-    Aggression = 20
+    Aggression = 10
     ReactionTime = 0.1
 	AimFocusInitial = 0.1
-	AimFocusDecay = 0.1
-	AimFocusOffsetScale = 0.1
-	AimfocusInterval = 0.1
+	AimFocusDecay = 0.15
+	AimFocusOffsetScale = 0.15
+	AimfocusInterval = 0.15
 End
 
 Elite+Rifle "NAF"
 	VoicePitch = 95
     Aggression = 2
-    ReactionTime = 0.00000000000001
-	AimFocusInitial = 0.0000000000001
-	AimFocusDecay = 0.000000000000001
-	AimFocusOffsetScale = 0.00000000001
-	AimfocusInterval = 0.000000000001
+    ReactionTime = 0.000000000000001
+	AimFocusInitial = 0.00000000000001
+	AimFocusDecay = 0.00000000000000001
+	AimFocusOffsetScale = 0.0000000001
+	AimfocusInterval = 0.0000000000001
 End
 
 EliteAwp+RifleT "EliGE"
 	VoicePitch = 95
     Aggression = 75
-    ReactionTime = 0.000000000000000000000000000001
-	AimFocusInitial = 0.00000000000000000000000000001
-	AimFocusDecay = 0.0000000000000000000000000000001
-	AimFocusOffsetScale = 0.0000000000000000000000001
-	AimfocusInterval = 0.000000000000000000000000001
+    ReactionTime = 0.0000000000000000001
+	AimFocusInitial = 0.000000000000000001
+	AimFocusDecay = 0.0000000000000000001
+	AimFocusOffsetScale = 0.000000000000001
+	AimfocusInterval = 0.0000000000000001
 End
 
 Elite+RifleT "YEKINDAR"
 	VoicePitch = 80
     Aggression = 100
-    ReactionTime = 0.0000000000000000000000000000000000000000001
-	AimFocusInitial = 0.0000000000000000000000000000000001
-	AimFocusDecay = 0.000000000000000000000000000000000001
-	AimFocusOffsetScale = 0.0000000000000000000000000000001
-	AimfocusInterval = 0.00000000000000000000000000000001
+    ReactionTime = 0.000000000000000000000000000001
+	AimFocusInitial = 0.0000000000000000000000000001
+	AimFocusDecay = 0.000000000000000000000000000001
+	AimFocusOffsetScale = 0.000000000000000000000001
+	AimfocusInterval = 0.0000000000000000000000000001
 End
 
 Elite+Sniper oSee
 	VoicePitch = 80
     Aggression = 15
-    ReactionTime = 0.00001
-	AimFocusInitial = 0.00001
-	AimFocusDecay = 0.00001
-	AimFocusOffsetScale = 0.000001
-	AimfocusInterval = 0.000001
+    ReactionTime = 0.001
+	AimFocusInitial = 0.0001
+	AimFocusDecay = 0.0001
+	AimFocusOffsetScale = 0.001
+	AimfocusInterval = 0.001
 End
 
 // **FaZe Clan**
@@ -976,52 +976,52 @@ End
 
 Elite+Rifle roeJ
 	VoicePitch = 80
-    Aggression = 80
-    ReactionTime = 0.0000000001
-	AimFocusInitial = 0.000000001
-	AimFocusDecay = 0.0000000001
-	AimFocusOffsetScale = 0.00000001
-	AimfocusInterval = 0.0000000001
+    Aggression = 95
+    ReactionTime = 0.00000001
+	AimFocusInitial = 0.00000001
+	AimFocusDecay = 0.00000001
+	AimFocusOffsetScale = 0.000001
+	AimfocusInterval = 0.00000001
 End
 
 Elite+SniperPro nicoodoz 
 	VoicePitch = 80
-    Aggression = 30
+    Aggression = 40
     ReactionTime = 0.000001
-	AimFocusInitial = 0.000001
+	AimFocusInitial = 0.00001
 	AimFocusDecay = 0.0000001
-	AimFocusOffsetScale = 0.000001
-	AimfocusInterval = 0.000001
+	AimFocusOffsetScale = 0.00001
+	AimfocusInterval = 0.00001
 End
 
 Elite+Rifle mezii 
 	VoicePitch = 80
-    Aggression = 65
-    ReactionTime = 0.0000000001
-	AimFocusInitial = 0.0000000001
-	AimFocusDecay = 0.000000000000001
-	AimFocusOffsetScale = 0.0000000001
-	AimfocusInterval = 0.0000000000001
+    Aggression = 15
+    ReactionTime = 0.0001
+	AimFocusInitial = 0.00001
+	AimFocusDecay = 0.00001
+	AimFocusOffsetScale = 0.001
+	AimfocusInterval = 0.001
 End
 
 Elite+Rifle "KRIMZ"
 	VoicePitch = 95
-    Aggression = 50
-    ReactionTime = 0.001
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.01
-	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
+    Aggression = 25
+    ReactionTime = 0.00001
+	AimFocusInitial = 0.0001
+	AimFocusDecay = 0.0001
+	AimFocusOffsetScale = 0.0001
+	AimfocusInterval = 0.0001
 End
 
 Elite+Rifle "FASHR"
 	VoicePitch = 95
     Aggression = 30
-    ReactionTime = 0.00001
-	AimFocusInitial = 0.00001
-	AimFocusDecay = 0.00001
-	AimFocusOffsetScale = 0.0001
-	AimfocusInterval = 0.0001
+    ReactionTime = 0.0001
+	AimFocusInitial = 0.001
+	AimFocusDecay = 0.001
+	AimFocusOffsetScale = 0.001
+	AimfocusInterval = 0.001
 End
 
 // **Team Vitality**
@@ -1080,9 +1080,9 @@ End
 
 Elite+Spray Brehze
 	VoicePitch = 80
-    Aggression = 50
-    ReactionTime = 0.001
-	AimFocusInitial = 0.001
+    Aggression = 45
+    ReactionTime = 0.0001
+	AimFocusInitial = 0.01
 	AimFocusDecay = 0.01
 	AimFocusOffsetScale = 0.01
 	AimfocusInterval = 0.01
@@ -1090,42 +1090,42 @@ End
 
 Elite+SniperPro CeRq
 	VoicePitch = 80
-    Aggression = 30
+    Aggression = 10
     ReactionTime = 0.01
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.01
+	AimFocusInitial = 0.1
+	AimFocusDecay = 0.1
 	AimFocusOffsetScale = 0.1
 	AimfocusInterval = 0.1
 End
 
 Elite+Rifle autimatic 
 	VoicePitch = 80
-    Aggression = 30
-    ReactionTime = 0.0001
-	AimFocusInitial = 0.001
-	AimFocusDecay = 0.001
-	AimFocusOffsetScale = 0.001
-	AimfocusInterval = 0.001
+    Aggression = 70
+    ReactionTime = 0.000000001
+	AimFocusInitial = 0.00000001
+	AimFocusDecay = 0.0000000001
+	AimFocusOffsetScale = 0.000001
+	AimfocusInterval = 0.00000001
 End
 
 Elite+Rifle neaLaN 
 	VoicePitch = 80
-    Aggression = 30
+    Aggression = 80
     ReactionTime = 0.1
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.01
-	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
+	AimFocusInitial = 0.1
+	AimFocusDecay = 0.1
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.1
 End
 
 Elite+RifleT "HexT"
 	VoicePitch = 80
-    Aggression = 20
-    ReactionTime = 0.0001
-	AimFocusInitial = 0.001
-	AimFocusDecay = 0.0001
-	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
+    Aggression = 30
+    ReactionTime = 0.1
+	AimFocusInitial = 0.1
+	AimFocusDecay = 0.1
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.15
 End
 
 // **G2 Esports**
@@ -1236,52 +1236,52 @@ End
 
 Elite+Spray "FL1T"
 	VoicePitch = 80
-    Aggression = 20
-    ReactionTime = 0.00000000001
-	AimFocusInitial = 0.000000001
-	AimFocusDecay = 0.00000000001
-	AimFocusOffsetScale = 0.00000001
-	AimfocusInterval = 0.0000000001
+    Aggression = 35
+    ReactionTime = 0.00000000000000000000000000000001
+	AimFocusInitial = 0.0000000000000000000000000001
+	AimFocusDecay = 0.0000000000000000000000000000001
+	AimFocusOffsetScale = 0.000000000000000000000001
+	AimfocusInterval = 0.000000000000000000000000001
 End
 
-Elite+Rifle qikert 
+Elite+Rifle Qikert 
 	VoicePitch = 80
-    Aggression = 15
+    Aggression = 45
     ReactionTime = 0.00001
 	AimFocusInitial = 0.00001
+	AimFocusDecay = 0.00001
+	AimFocusOffsetScale = 0.0001
+	AimfocusInterval = 0.0001
+End
+
+Elite+RifleT fame
+	VoicePitch = 80
+    Aggression = 40
+    ReactionTime = 0.00000000000000000000001
+	AimFocusInitial = 0.000000000000000000001
+	AimFocusDecay = 0.00000000000000000000001
+	AimFocusOffsetScale = 0.00000000000000001
+	AimfocusInterval = 0.00000000000000000001
+End
+
+Elite+RifleT n0rb3r7
+	VoicePitch = 80
+    Aggression = 25
+    ReactionTime = 0.000001
+	AimFocusInitial = 0.000001
 	AimFocusDecay = 0.000001
 	AimFocusOffsetScale = 0.00001
 	AimfocusInterval = 0.00001
 End
 
-Elite+RifleT fame
-	VoicePitch = 80
-    Aggression = 50
-    ReactionTime = 0.000000001
-	AimFocusInitial = 0.000000001
-	AimFocusDecay = 0.0000000001
-	AimFocusOffsetScale = 0.00000001
-	AimfocusInterval = 0.0000000001
-End
-
-Elite+RifleT n0rb3r7
-	VoicePitch = 80
-    Aggression = 50
-    ReactionTime = 0.00001
-	AimFocusInitial = 0.00001
-	AimFocusDecay = 0.00001
-	AimFocusOffsetScale = 0.000001
-	AimfocusInterval = 0.00001
-End
-
 EliteAwp+SniperPro "Jame"
 	VoicePitch = 80
-    Aggression = 5
-    ReactionTime = 0.0000000000000000000001
-	AimFocusInitial = 0.0000000000000000001
-	AimFocusDecay = 0.00000000000000000000001
-	AimFocusOffsetScale = 0.000000000000000001
-	AimfocusInterval = 0.000000000000000000001
+    Aggression = 2
+    ReactionTime = 0.000000000000000000000000000001
+	AimFocusInitial = 0.000000000000000000000000001
+	AimFocusDecay = 0.00000000000000000000000000001
+	AimFocusOffsetScale = 0.00000000000000000000001
+	AimfocusInterval = 0.00000000000000000000000001
 End
 
 // **ENCE**
@@ -1366,26 +1366,6 @@ Elite+Sniper "REZ"
 	AimFocusDecay = 0.00000000000001
 	AimFocusOffsetScale = 0.0000000001
 	AimfocusInterval = 0.000000000001
-End
-
-Elite+Rifle Plopski  
-	VoicePitch = 80
-    Aggression = 10
-    ReactionTime = 0.00001
-	AimFocusInitial = 0.00001
-	AimFocusDecay = 0.000001
-	AimFocusOffsetScale = 0.0001
-	AimfocusInterval = 0.0001
-End
-
-EliteAwp+SniperPro "device"
-	VoicePitch = 95
-    Aggression = 20
-    ReactionTime = 0.00000000000001
-	AimFocusInitial = 0.000000000001
-	AimFocusDecay = 0.0000000000000001
-	AimFocusOffsetScale = 0.0000000001
-	AimfocusInterval = 0.00000000000001
 End
 
 Elite+RifleT hampus 
@@ -1514,54 +1494,54 @@ End
 
 // **Team Spirit**
 
-Elite+PunchT chopper 
+Elite+Rifle chopper 
 	VoicePitch = 80
-    Aggression = 20
-    ReactionTime = 0.0001
-	AimFocusInitial = 0.0001
-	AimFocusDecay = 0.0001
-	AimFocusOffsetScale = 0.0001
-	AimfocusInterval = 0.0001
+    Aggression = 50
+    ReactionTime = 0.001
+	AimFocusInitial = 0.001
+	AimFocusDecay = 0.001
+	AimFocusOffsetScale = 0.01
+	AimfocusInterval = 0.01
 End 
 
 Elite+RifleT magixx 
 	VoicePitch = 80
     Aggression = 75
-    ReactionTime = 0.001
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.001
-	AimFocusOffsetScale = 0.001
-	AimfocusInterval = 0.001
+    ReactionTime = 0.000000000001
+	AimFocusInitial = 0.0000000001
+	AimFocusDecay = 0.0000000000001
+	AimFocusOffsetScale = 0.0000000001
+	AimfocusInterval = 0.00000000001
 End 
 
 Elite+Rifle s1ren  
 	VoicePitch = 80
     Aggression = 15
-    ReactionTime = 0.01
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.01
-	AimFocusOffsetScale = 0.1
-	AimfocusInterval = 0.1
+    ReactionTime = 0.0001
+	AimFocusInitial = 0.001
+	AimFocusDecay = 0.001
+	AimFocusOffsetScale = 0.001
+	AimfocusInterval = 0.001
 End
 
 Elite+Rifle Patsi  
 	VoicePitch = 80
-    Aggression = 95
-    ReactionTime = 0.00000000000000000000001
-	AimFocusInitial = 0.0000000000000000000001
-	AimFocusDecay = 0.0000000000000000000000001
-	AimFocusOffsetScale = 0.000000000000000001
-	AimfocusInterval = 0.00000000000000000001
+    Aggression = 100
+    ReactionTime = 0.000000000000000000000000001
+	AimFocusInitial = 0.000000000000000000000001
+	AimFocusDecay = 0.000000000000000000000000001
+	AimFocusOffsetScale = 0.000000000000000000001
+	AimfocusInterval = 0.000000000000000000000001
 End
 
 Elite+SniperPro w0nderful 
 	VoicePitch = 80
     Aggression = 10
-    ReactionTime = 0.00001
-	AimFocusInitial = 0.00001
-	AimFocusDecay = 0.00001
-	AimFocusOffsetScale = 0.00001
-	AimfocusInterval = 0.0001
+    ReactionTime = 0.000000000000000000000000000001
+	AimFocusInitial = 0.000000000000000000000000001
+	AimFocusDecay = 0.00000000000000000000000000001
+	AimFocusOffsetScale = 0.00000000000000000000001
+	AimfocusInterval = 0.00000000000000000000000001
 End
 
 // **Cloud9**
@@ -1586,7 +1566,7 @@ Elite+RifleT interz
 	AimfocusInterval = 0.0000000001
 End
 
-EliteAwp+Sniper sh1ro 
+EliteAwp+Sniper SH1R0 
 	VoicePitch = 80
     Aggression = 5
     ReactionTime = 0.00000000000000000000000000000000000000000001
@@ -1720,68 +1700,68 @@ Elite+RifleT dav1g
 	AimfocusInterval = 0.1
 End
 
-// **Eternal Fire**
+// **Bad News Eagles**
 
-Elite+RifleT XANTARES
+Elite+RifleT juanflatroo
 	VoicePitch = 80
-    Aggression = 90
-    ReactionTime = 0.0000000000000000000000000000001
-	AimFocusInitial = 0.0000000000000000000000001
-	AimFocusDecay = 0.0000000000000000000000000001
-	AimFocusOffsetScale = 0.0000000000000000000001
-	AimfocusInterval = 0.0000000000000000000000001
+    Aggression = 65
+    ReactionTime = 0.0000000001
+	AimFocusInitial = 0.000000001
+	AimFocusDecay = 0.000000001
+	AimFocusOffsetScale = 0.00001
+	AimfocusInterval = 0.000001
 End
 
-Elite+RifleT paz 
+Elite+RifleT rigoN 
 	VoicePitch = 80
-    Aggression = 5
-    ReactionTime = 0.1
-	AimFocusInitial = 0.1
-	AimFocusDecay = 0.01
-	AimFocusOffsetScale = 0.1
-	AimfocusInterval = 0.1
+    Aggression = 85
+    ReactionTime = 0.000001
+	AimFocusInitial = 0.000001
+	AimFocusDecay = 0.0000001
+	AimFocusOffsetScale = 0.0000001
+	AimfocusInterval = 0.0000001
 End 
 
-Elite+Rifle imoRR  
+Elite+Rifle sinnopsyy 
 	VoicePitch = 80
     Aggression = 85
     ReactionTime = 0.01
-	AimFocusInitial = 0.001
-	AimFocusDecay = 0.001
-	AimFocusOffsetScale = 0.01
+	AimFocusInitial = 0.01
+	AimFocusDecay = 0.01
+	AimFocusOffsetScale = 0.001
 	AimfocusInterval = 0.001
 End
 
-Elite+Rifle MAJ3R  
+Elite+Rifle SENER1  
 	VoicePitch = 80
-    Aggression = 15
-    ReactionTime = 0.001
+    Aggression = 35
+    ReactionTime = 0.1
+	AimFocusInitial = 0.1
+	AimFocusDecay = 0.1
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.1
+End
+
+Elite+Sniper gxx-
+	VoicePitch = 80
+    Aggression = 20
+    ReactionTime = 0.0001
 	AimFocusInitial = 0.001
 	AimFocusDecay = 0.001
 	AimFocusOffsetScale = 0.001
 	AimfocusInterval = 0.001
 End
 
-Elite+SniperPro "woxic"
-	VoicePitch = 80
-    Aggression = 20
-    ReactionTime = 0.00000000000001
-	AimFocusInitial = 0.0000000000001
-	AimFocusDecay = 0.000000000000001
-	AimFocusOffsetScale = 0.0000000001
-	AimfocusInterval = 0.0000000000001	
-End
-
 // **No Team/Misc**
 
-Elite+Rifle chelo
+Elite+SniperPro "Farlig"
 	VoicePitch = 80
     Aggression = 80
-    ReactionTime = 0.00001
-	AimFocusInitial = 0.0001
-	AimFocusDecay = 0.00001
-	AimFocusOffsetScale = 0.00001
-	AimfocusInterval = 0.00001
+    ReactionTime = 0.001
+	AimFocusInitial = 0.001
+	AimFocusDecay = 0.001
+	AimFocusOffsetScale = 0.001
+	AimfocusInterval = 0.0001
 End
 
 Elite+RifleT Zyphon
@@ -1834,16 +1814,6 @@ Elite+Rifle misutaaa
 	AimfocusInterval = 0.0000001
 End
 
-Elite+Rifle "ALEX"
-	VoicePitch = 95
-    Aggression = 30
-    ReactionTime = 0.1
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.01
-	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
-End
-
 Elite+SniperPro "mantuu"
 	VoicePitch = 95
     Aggression = 40
@@ -1853,16 +1823,6 @@ Elite+SniperPro "mantuu"
 	AimFocusOffsetScale = 0.001
 	AimfocusInterval = 0.001
 End
-
-Elite+RifleT Bymas
-	VoicePitch = 95
-    Aggression = 0
-    ReactionTime = 0.000001
-	AimFocusInitial = 0.00001
-	AimFocusDecay = 0.000001
-	AimFocusOffsetScale = 0.00001
-	AimfocusInterval = 0.00001
-End 
 
 Elite+RifleT shox
 	VoicePitch = 95
@@ -1897,11 +1857,11 @@ End
 Elite+SniperPro smooya
 	VoicePitch = 95
     Aggression = 75
-    ReactionTime = 0.000000001
+    ReactionTime = 0.00000001
 	AimFocusInitial = 0.0000001
-	AimFocusDecay = 0.00000000001
+	AimFocusDecay = 0.00000001
 	AimFocusOffsetScale = 0.000001
-	AimfocusInterval = 0.00000001
+	AimfocusInterval = 0.000001
 End
 
 Elite+RifleT NBK-
@@ -1914,16 +1874,6 @@ Elite+RifleT NBK-
 	AimfocusInterval = 0.0001
 End 
 
-Elite+SniperPro "FalleN"
-	VoicePitch = 95
-    Aggression = 45
-    ReactionTime = 0.1
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.01
-	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
-End
-
 Elite+RifleT "coldzera"
 	VoicePitch = 95
     Aggression = 0
@@ -1932,16 +1882,6 @@ Elite+RifleT "coldzera"
 	AimFocusDecay = 0.01
 	AimFocusOffsetScale = 0.01
 	AimfocusInterval = 0.01
-End
-
-Elite+SniperPro "poizon"
-	VoicePitch = 80
-    Aggression = 40
-    ReactionTime = 0.0001
-	AimFocusInitial = 0.001
-	AimFocusDecay = 0.0001
-	AimFocusOffsetScale = 0.001
-	AimfocusInterval = 0.0001
 End
 
 Elite+Sniper nawwk
