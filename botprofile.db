@@ -1,8 +1,7 @@
 //----------------------------------------------------------------------------
-// Enhanced BotProfile.db
+// BotProfile.db
 // Original author: Michael S. Booth, Turtle Rock Studios (www.turtlerockstudios.com)
 //
-// Based on BotProfile.db by:
 // Author:Good Ol' Davy
 // Thanks to these actually smart people for making these!
 // Credits to:
@@ -14,6 +13,11 @@
 // https://gamebanana.com/gamefiles/2585
 // https://gamebanana.com/scripts/10197
 // https://gamebanana.com/scripts/9293
+//
+// This database defines bot "personalities".
+// Realistic AI.
+//
+//
 //
 //----------------------------------------------------------------------------
 
@@ -660,17 +664,49 @@ End
 // Default and then the specified Template(s), in order
 //
 
-// **Astralis**
+// **Team Obsidian**
 
-EliteAwp+SniperPro "device"
-	VoicePitch = 95
-    Aggression = 20
-    ReactionTime = 0.00000000000001
-	AimFocusInitial = 0.000000000001
-	AimFocusDecay = 0.0000000000000001
-	AimFocusOffsetScale = 0.0000000001
-	AimfocusInterval = 0.00000000000001
+Elite+RifleT m1ch
+    VoicePitch = 94
+    Aggression = 5
+    ReactionTime = 0.38
+    AimFocusInitial = 5
+    AimFocusDecay = 0.35
+    AimFocusOffsetScale = 0.36
+    AimfocusInterval = 0.36
 End
+
+Elite+Spray costa 
+    VoicePitch = 94
+    Aggression = 5
+    ReactionTime = 0.42
+    AimFocusInitial = 5
+    AimFocusDecay = 0.45
+    AimFocusOffsetScale = 0.45
+    AimfocusInterval = 0.4
+End
+
+Elite+PunchT sc0pe 
+	VoicePitch = 90
+    Aggression = 20
+    ReactionTime = 0.38
+    AimFocusInitial = 5
+    AimFocusDecay = 0.33
+    AimFocusOffsetScale = 0.35
+    AimfocusInterval = 0.35
+End 
+
+Elite+Sniper "tek"
+	VoicePitch = 105
+    Aggression = 10
+    ReactionTime = 0.25
+    AimFocusInitial = 0.12
+    AimFocusDecay = 0.12
+    AimFocusOffsetScale = 0.15
+    AimfocusInterval = 0.16
+End
+
+// **Astralis**
 
 Elite+Rifle blameF 
 	VoicePitch = 80
@@ -682,14 +718,14 @@ Elite+Rifle blameF
 	AimfocusInterval = 0.00000000000001
 End 
 
-Elite+RifleT MistR
+Elite+RifleT k0nfig
 	VoicePitch = 80
     Aggression = 50
-    ReactionTime = 0.01
-	AimFocusInitial = 0.01
-	AimFocusDecay = 0.01
-	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
+    ReactionTime = 0.0000000000000001
+	AimFocusInitial = 0.00000000001
+	AimFocusDecay = 0.00000000000001
+	AimFocusOffsetScale = 0.00000001
+	AimfocusInterval = 0.00000000001
 End 
 
 Elite+Rifle "Xyp9x"
@@ -710,6 +746,16 @@ Elite+Rifle "gla1ve"
 	AimFocusDecay = 0.001
 	AimFocusOffsetScale = 0.001
 	AimfocusInterval = 0.001
+End
+
+EliteAwp+SniperPro "device"
+	VoicePitch = 95
+    Aggression = 20
+    ReactionTime = 0.00000000000001
+	AimFocusInitial = 0.000000000001
+	AimFocusDecay = 0.0000000000000001
+	AimFocusOffsetScale = 0.0000000001
+	AimfocusInterval = 0.00000000000001
 End
 
 // **Natus Vincere**
@@ -1170,7 +1216,7 @@ Elite+RifleT "huNter-"
 	AimfocusInterval = 0.000000000000000000000000001
 End 
 
-EliteAwp+Punch "NiKo"
+EliteAwp+Rifle "NiKo"
     VoicePitch = 90
     Aggression = 60
     ReactionTime = 0.000000000000000000000000000000000000000000001
@@ -1247,11 +1293,11 @@ End
 Elite+Rifle Qikert 
 	VoicePitch = 80
     Aggression = 45
-    ReactionTime = 0.00001
-	AimFocusInitial = 0.00001
-	AimFocusDecay = 0.00001
-	AimFocusOffsetScale = 0.0001
-	AimfocusInterval = 0.0001
+    ReactionTime = 0.01
+	AimFocusInitial = 0.01
+	AimFocusDecay = 0.01
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.1
 End
 
 Elite+RifleT fame
@@ -1267,9 +1313,9 @@ End
 Elite+RifleT n0rb3r7
 	VoicePitch = 80
     Aggression = 25
-    ReactionTime = 0.000001
-	AimFocusInitial = 0.000001
-	AimFocusDecay = 0.000001
+    ReactionTime = 0.0001
+	AimFocusInitial = 0.0001
+	AimFocusDecay = 0.0001
 	AimFocusOffsetScale = 0.00001
 	AimfocusInterval = 0.00001
 End
@@ -1497,49 +1543,49 @@ End
 Elite+Rifle chopper 
 	VoicePitch = 80
     Aggression = 50
-    ReactionTime = 0.001
-	AimFocusInitial = 0.001
-	AimFocusDecay = 0.001
-	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
-End 
-
-Elite+RifleT magixx 
-	VoicePitch = 80
-    Aggression = 75
-    ReactionTime = 0.000000000001
-	AimFocusInitial = 0.0000000001
-	AimFocusDecay = 0.0000000000001
-	AimFocusOffsetScale = 0.0000000001
-	AimfocusInterval = 0.00000000001
-End 
-
-Elite+Rifle s1ren  
-	VoicePitch = 80
-    Aggression = 15
     ReactionTime = 0.0001
 	AimFocusInitial = 0.001
 	AimFocusDecay = 0.001
 	AimFocusOffsetScale = 0.001
 	AimfocusInterval = 0.001
+End 
+
+Elite+RifleT magixx 
+	VoicePitch = 80
+    Aggression = 55
+    ReactionTime = 0.00000000000001
+	AimFocusInitial = 0.0000000000001
+	AimFocusDecay = 0.000000000000001
+	AimFocusOffsetScale = 0.0000000001
+	AimfocusInterval = 0.00000000000001
+End 
+
+Elite+Rifle s1ren  
+	VoicePitch = 80
+    Aggression = 20
+    ReactionTime = 0.01
+	AimFocusInitial = 0.01
+	AimFocusDecay = 0.01
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.1
 End
 
 Elite+Rifle Patsi  
 	VoicePitch = 80
     Aggression = 100
-    ReactionTime = 0.000000000000000000000000001
-	AimFocusInitial = 0.000000000000000000000001
-	AimFocusDecay = 0.000000000000000000000000001
-	AimFocusOffsetScale = 0.000000000000000000001
-	AimfocusInterval = 0.000000000000000000000001
+    ReactionTime = 0.0000000000000000001
+	AimFocusInitial = 0.00000000000001
+	AimFocusDecay = 0.00000000000000001
+	AimFocusOffsetScale = 0.000000000001
+	AimfocusInterval = 0.00000000000001
 End
 
 Elite+SniperPro w0nderful 
 	VoicePitch = 80
-    Aggression = 10
-    ReactionTime = 0.000000000000000000000000000001
-	AimFocusInitial = 0.000000000000000000000000001
-	AimFocusDecay = 0.00000000000000000000000000001
+    Aggression = 5
+    ReactionTime = 0.0000000000000000000000000001
+	AimFocusInitial = 0.00000000000000000000000001
+	AimFocusDecay = 0.0000000000000000000000000001
 	AimFocusOffsetScale = 0.00000000000000000000001
 	AimfocusInterval = 0.00000000000000000000000001
 End
@@ -1648,56 +1694,56 @@ Elite+SniperPro hallzerk
 	AimfocusInterval = 0.0001
 End 
 
-// **Movistar Riders**
+// **Eternal Fire**
 
-Elite+Rifle mopoz
+Elite+RifleT XANTARES
 	VoicePitch = 80
-    Aggression = 95
-    ReactionTime = 0.000001
-	AimFocusInitial = 0.000001
-	AimFocusDecay = 0.000001
-	AimFocusOffsetScale = 0.00001
-	AimfocusInterval = 0.000001
+    Aggression = 90
+    ReactionTime = 0.0000000000000000000000000000001
+	AimFocusInitial = 0.0000000000000000000000001
+	AimFocusDecay = 0.0000000000000000000000000001
+	AimFocusOffsetScale = 0.0000000000000000000001
+	AimfocusInterval = 0.0000000000000000000000001
 End
 
-Elite+Rifle alex-
+Elite+RifleT paz 
 	VoicePitch = 80
-    Aggression = 75
-    ReactionTime = 0.0000001
-	AimFocusInitial = 0.0000001
-	AimFocusDecay = 0.00000001
-	AimFocusOffsetScale = 0.000001
-	AimfocusInterval = 0.000001
-End
-
-Elite+Rifle DeathZz  
-	VoicePitch = 80
-    Aggression = 10
+    Aggression = 5
     ReactionTime = 0.1
+	AimFocusInitial = 0.1
+	AimFocusDecay = 0.01
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.1
+End 
+
+Elite+Rifle imoRR  
+	VoicePitch = 80
+    Aggression = 85
+    ReactionTime = 0.01
 	AimFocusInitial = 0.001
 	AimFocusDecay = 0.001
 	AimFocusOffsetScale = 0.01
-	AimfocusInterval = 0.01
-End
-
-Elite+SniperPro MartinezSa 
-	VoicePitch = 80
-    Aggression = 30
-    ReactionTime = 0.001
-	AimFocusInitial = 0.0001
-	AimFocusDecay = 0.0001
-	AimFocusOffsetScale = 0.0001
 	AimfocusInterval = 0.001
 End
 
-Elite+RifleT dav1g
+Elite+Rifle xfl0ud  
 	VoicePitch = 80
-    Aggression = 55
-    ReactionTime = 0.1
-	AimFocusInitial = 0.1
-	AimFocusDecay = 0.1
-	AimFocusOffsetScale = 0.1
-	AimfocusInterval = 0.1
+    Aggression = 15
+    ReactionTime = 0.001
+	AimFocusInitial = 0.001
+	AimFocusDecay = 0.001
+	AimFocusOffsetScale = 0.001
+	AimfocusInterval = 0.001
+End
+
+Elite+SniperPro "woxic"
+	VoicePitch = 80
+    Aggression = 20
+    ReactionTime = 0.00000000000001
+	AimFocusInitial = 0.0000000000001
+	AimFocusDecay = 0.000000000000001
+	AimFocusOffsetScale = 0.0000000001
+	AimfocusInterval = 0.0000000000001	
 End
 
 // **Bad News Eagles**
@@ -1753,16 +1799,6 @@ Elite+Sniper gxx-
 End
 
 // **No Team/Misc**
-
-Elite+SniperPro "Farlig"
-	VoicePitch = 80
-    Aggression = 80
-    ReactionTime = 0.001
-	AimFocusInitial = 0.001
-	AimFocusDecay = 0.001
-	AimFocusOffsetScale = 0.001
-	AimfocusInterval = 0.0001
-End
 
 Elite+RifleT Zyphon
 	VoicePitch = 80
@@ -1916,549 +1952,2222 @@ End
 
 //----------------------------------------
 
-VeryHard Daisy
+Expert+Rifle Kotie
+	Skill = 95
+	Aggression = 80
+	VoicePitch = 100
+End
+
+//----------------------------------------
+
+VeryHard+Power "Banter.exe"
+	Skill = 90
+	Aggression = 100
+  Skin = 3
+	VoicePitch = 110
+End
+
+VeryHard+Sniper "Kafie"
+	Skill = 89
+	Aggression = 80
+  Skin = 4
+	VoicePitch = 93
+End
+
+VeryHard+PunchT Distress
+	Skill = 87
+	Aggression = 50
+    Skin = 1
+	VoicePitch = 100
+End
+
+VeryHard+Power "q r e s"
+	Skill = 85
+	Aggression = 100
+	ReactionTime = 0.308
+  Skin = 1
+	VoicePitch = 86
+End
+
+VeryHard+Punch "GSX"
+	Aggression = 100
+	ReactionTime = 0.01
+	AttackDelay = 0.03
+  Skin = 4
+	VoicePitch = 115
+End
+
+VeryHard+RifleT "Sivarg"
+	Skill = 85
+	Aggression = 50
+    Skin = 3
+	VoicePitch = 110
+End
+
+VeryHard+PunchT "Ouko"
+	Skill = 85
+	Aggression = 55
+	ReactionTime = 0.5
+	AttackDelay = 0.5
+	Skin = 3
+	VoicePitch = 120
+End
+
+VeryHard+Rifle "NaCl"
+    Aggression = 55
+    ReactionTime = 0.5
+    AttackDelay = 0.07
+    Skin = 4
+    VoicePitch = 100
+End
+
+VeryHard+RifleT "Sarkast1k"
+    Skin = 4
+    VoicePitch = 100
+End
+
+VeryHard+PunchT "KHAnarchist"
+    Skill = 87
+		ReactionTime = 0.308
+    VoicePitch = 90
+End
+
+VeryHard+PunchT "Ryou"
+    Skill = 85
+    Aggression = 76
+    Skin = 3
+    VoicePitch = 100
+End
+
+VeryHardPassive+Power deathviper168
+        VoicePitch = 110
+End
+
+VeryHardPassive+Rifle LILMAN
+	Skin = 2
+	VoicePitch = 100
+End
+
+VeryHardPassive+Power Shappier
 	Skin = 1
 	VoicePitch = 110
 End
 
-VeryHard Wagon
+VeryHardPassive+Sniper Scouts
 	Skin = 3
 	VoicePitch = 93
 End
 
-VeryHard Vulture
+VeryHardPassive+Rifle Zippit
 	Skin = 2
 	VoicePitch = 100
 End
 
-VeryHard Banjo
+VeryHardPassive+RifleT Noir77
 	Skin = 4
 	VoicePitch = 86
 End
 
+VeryHardPassive+Power "cory in the house"
+	Skin = 1
+	VoicePitch = 110
+End
+
+VeryHardPassive+Sniper "gay bee"
+	Skin = 3
+	VoicePitch = 93
+End
+
+VeryHard+Sniper "actually cool"
+	Skin = 4
+	VoicePitch = 86
+End
+
+VeryHard+Power sasha066
+	Skin = 1
+	VoicePitch = 110
+End
+
+VeryHard+Power eViL_RabBit
+	Skin = 1
+	VoicePitch = 110
+End
+
+VeryHard+Power hadoodle
+	Skin = 1
+	VoicePitch = 110
+End
 
 //----------------------------------------
 
-Hard+Rifle Lamb
-	Skin = 1
+Hard+Rifle SpamCracker
+	Skill = 79
+	Aggression = 100
+    Skin = 4
 	VoicePitch = 95
 End
 
-Hard+RifleT Dart
-	Skin = 2
+Hard+RifleT Elucidate
+	Skill = 80
+	Aggression = 40
+    Skin = 1
 	VoicePitch = 90
 End
 
-Hard+Spray Pelican
-	Skin = 4
+Hard+Power Mephisto
+	Aggression = 100
+	AttackDelay = 0
+    Skin = 2
 	VoicePitch = 102
 End
 
-Hard+Shotgun Zigzag
-	Skin = 1
+//----------------------------------------
+
+ExtraTough+Punch RoyalHatred
+		Skill = 59
+		ReactionTime = 0.5
+        VoicePitch = 110
+End
+
+ExtraTough+Punch "Puuky | TKO"
+	Skill = 55
+	Aggression = 50
+	ReactionTime = 0.02
+	AttackDelay = 0.2
+  Skin = 3
+	VoicePitch = 110
+End
+
+ExtraTough+AutoSniper "harmonies"
+	Skill = 59
+	Aggression = 70
+	ReactionTime = 0.01
+	AttackDelay = 0.1
+  Skin = 4
+	VoicePitch = 110
+End
+
+ExtraTough+RifleT "qwerty"
+	Skill = 53
+	Aggression = 70
+	ReactionTime = 0.1
+  Skin = 1
+	VoicePitch = 99
+End
+
+ExtraTough+Punch "Cheeki Breeki"
+	Skill = 57
+	Aggression = 24
 	VoicePitch = 98
 End
 
-Hard+Rifle Frog
-	Skin = 2
-	VoicePitch = 96
-End
-
-Hard+Punch Whale
-	Skin = 4
-	VoicePitch = 103
-End
-
-Hard+Punch Flamingo
-	Skin = 1
+ExtraTough+Punch "mimaweekly"
+	Aggression = 50
+	ReactionTime = 0.3
+	AttackDelay = 0.3
+  Skin = 3
 	VoicePitch = 105
 End
 
-Hard+Rifle Iguana
-	Skin = 2
-	VoicePitch = 97
+ExtraTough+Spray "~Erim~"
+    Skill = 54
+		Aggression = 25
+    VoicePitch = 100
 End
 
-Hard+Rifle Woodpecker
+ExtraTough+Punch "Imagine Wagons"
+    Skin = 3
+		Aggression = 65
+		ReactionTime = 0.7
+    VoicePitch = 95
+End
+
+ExtraTough+Shotgun "JUST GIVE ME MY DIAMONDS"
 	Skin = 4
-	VoicePitch = 84
+	VoicePitch = 95
 End
 
-Hard+Punch Pyramid
-	Skin = 1
-	VoicePitch = 90
-End
-
-Hard+Rifle Seal
-	Skin = 2
-	VoicePitch = 98
-End
-
-Hard+Sniper Manatee
+ExtraTough+Sniper "ちぅう"
 	Skin = 3
-	VoicePitch = 110
+	VoicePitch = 93
 End
 
-Hard+Spray Sparrow
-	Skin = 4
-	VoicePitch = 103
-End
-
-Hard+Rifle Bulldog
+ExtraTough+Rifle "偽日本人だし"
 	Skin = 2
-	VoicePitch = 110
+	VoicePitch = 100
+	Difficulty = EASY+NORMAL+HARD
 End
 
-//----------------------------------------
-
-Tough+Sniper Eclipse
-	Skin = 3
-	VoicePitch = 120
-End
-
-Tough+Rifle Cyclone
-	Skin = 1
+ExtraTough+Rifle Tasca
+	Skin = 2
 	VoicePitch = 100
 End
 
-Tough+Rifle Robin
-	Skin = 2
-	VoicePitch = 104
-End
-
-Tough+Rifle Hatchet
+ExtraTough+RifleT "田所浩二SUKI"
 	Skin = 4
-	VoicePitch = 98
+	VoicePitch = 86
+	Difficulty = EASY+NORMAL+HARD
 End
 
-Tough Vortex
-	Skin = 1
-	VoicePitch = 100
-End
-
-Tough+Rifle Zebra
-	Skin = 2
-	VoicePitch = 102
-End
-
-Tough+Shotgun Donkey
-	Skin = 4
-	VoicePitch = 95
-End
-
-Tough+Rifle Stump
-	Skin = 1
-	VoicePitch = 95
-End
-
-Tough+RifleT Macaw
-	Skin = 2
-	VoicePitch = 110
-End
-
-Tough+Rifle Torus
-	Skin = 4
-	VoicePitch = 112
-End
-
-Tough Snake
-	Skin = 1
-	VoicePitch = 90
-End
-
-Tough+Rifle Goose
-	Skin = 2
-	VoicePitch = 115
-End
-
-Tough+Rifle Blackbird
-	Skin = 4
-	VoicePitch = 107
-End
-
-Tough+Rifle Rose
-	Skin = 2
-	VoicePitch = 102
-End
-
-Tough Hurricane
+ExtraTough+RiflePro Killo$ity
 	Skin = 1
 	VoicePitch = 98
 End
 
-Tough+Rifle Dalmatian
+ExtraTough+Rifle JasonBourne
 	Skin = 2
 	VoicePitch = 100
 End
 
-Tough+RifleT Wade
+ExtraTough+RifleT axelbaxe
 	Skin = 4
 	VoicePitch = 95
 End
 
-Tough+Rifle Rattle
+ExtraTough+Rifle Freestyle
 	Skin = 1
 	VoicePitch = 86
 End
 
-Tough+RifleT Octopus
+ExtraTough+RifleT Duskhunter
 	Skin = 2
 	VoicePitch = 100
 End
 
-Tough+Rifle Bell
+ExtraTough+Rifle Recon
 	Skin = 4
 	VoicePitch = 95
 End
 
 //----------------------------------------
 
-Normal+Rifle Adam
-	Skin = 1
-	VoicePitch = 105
-End
-
-Normal+PunchT Andy
-	Skin = 2
-	VoicePitch = 90
-End
-
-Normal Chris
-	Skin = 3
-	VoicePitch = 100
-End
-
-Normal Colin
-	Skin = 4
-	VoicePitch = 107
-End
-
-Normal+Rifle Dennis
-	Skin = 1
-	VoicePitch = 104
-End
-
-Normal Doug
-	Skin = 2
-	VoicePitch = 110
-End
-
-Normal Gary
-	Skin = 3
+Tough+Sniper Shortruler
+	Skill = 70
+	Aggression = 32
+	ReactionTime = 0.03
+	AttackDelay = 0.6
+  Skin = 1
 	VoicePitch = 95
 End
 
-Normal Grant
-	Skin = 4
-	VoicePitch = 112
-End
-
-Normal Greg
-	Skin = 1
-	VoicePitch = 111
-End
-
-Normal+Sniper Ian
-	Skin = 3
-	VoicePitch = 115
-End
-
-Normal Jerry
-	Skin = 4
-	VoicePitch = 112
-End
-
-Normal Jon
-	Skin = 1
-	VoicePitch = 96
-End
-
-Normal Keith
-	Skin = 2
-	VoicePitch = 98
-End
-
-Normal Mark
-	Skin = 4
-	VoicePitch = 110
-End
-
-Normal Matt
-	Skin = 1
-	VoicePitch = 95
-End
-
-Normal+RifleT Mike
-	Skin = 2
+Tough+Punch "sadded"
+	Skill = 70
+	Aggression = 8
+  Skin = 3
 	VoicePitch = 100
 End
 
-Normal Nate
-	Skin = 4
-	VoicePitch = 99
-End
-
-Normal Paul
-	Skin = 3
-	VoicePitch = 98
-End
-
-Normal Scott
-	Skin = 1
-	VoicePitch = 105
-End
-
-Normal Steve
-	Skin = 2
-	VoicePitch = 115
-End
-
-Normal Tom
-	Skin = 3
-	VoicePitch = 110
-End
-
-Normal Yahn
-	Skin = 4
-	VoicePitch = 92
-End
-
-//----------------------------------------
-
-Fair Alfred
-	VoicePitch = 110
-End
-
-Fair Bill
-	VoicePitch = 100
-End
-
-Fair Brandon
-	VoicePitch = 99
-End
-
-Fair+Spray Calvin
-	VoicePitch = 120
-End
-
-Fair Dean
-	VoicePitch = 111
-End
-
-Fair Dustin
-	VoicePitch = 98
-End
-
-Fair Ethan
-	VoicePitch = 112
-End
-
-Fair Harold
-	VoicePitch = 90
-End
-
-Fair Henry
-	VoicePitch = 120
-End
-
-Fair Irving
-	VoicePitch = 118
-End
-
-Fair Jason
+Tough+Power "Eurine"
+	Skill = 69
+	Aggression = 42
+	AttackDelay = 0.9
+  Skin = 3
 	VoicePitch = 116
 End
 
-Fair Josh
-	VoicePitch = 114
+Tough+Shotgun "ViruX"
+	Skill = 74
+  Aggression = 0
+	ReactionTime = 0.3
+	AttackDelay = 0.3
+  Skin = 4
+	VoicePitch = 95
 End
 
-Fair Martin
+Tough+Rifle "A jar of pickles"
+	Skill = 73
+	Aggression = 40
+  Skin = 1
+	VoicePitch = 95
+End
+
+Tough+RifleT Frostieeee
+	Skill = 64
+	Aggression = 0
+	ReactionTime = 0.308
+  Skin = 3
 	VoicePitch = 110
 End
 
-Fair Nick
-	VoicePitch = 98
+Tough+Spray "Myon"
+	Aggression = 100
+  Skin = 4
+	VoicePitch = 90
 End
 
-Fair Norm
-	VoicePitch = 92
-End
-
-Fair Orin
-	VoicePitch = 113
-End
-
-Fair Pat
-	VoicePitch = 114
-End
-
-Fair Perry
+Tough+Rifle "shinzo"
+	Skill = 62
+	Aggression = 100
+  Skin = 2
 	VoicePitch = 115
 End
 
-Fair Ron
-	VoicePitch = 100
+Tough+RifleT Reed
+	Skill = 65
+	Aggression = 100
+	Skin = 3
+	VoicePitch = 107
 End
 
-Fair Shawn
+Tough+Rifle "ExE"
+	Skill = 61
+	Aggression = 79
+    Skin = 3
 	VoicePitch = 102
 End
 
-Fair Tim
+Tough+Spray "Shady Drugs"
+	Skill = 68
+	Aggression = 0
+	ReactionTime = 0.308
+  Skin = 1
 	VoicePitch = 98
 End
 
-Fair Will
+Tough+Power "rubbedsaltwound"
+	Skill = 69
+	Aggression = 10
+	ReactionTime = 0.01
+	AttackDelay = 0.1
+  Skin = 4
+	VoicePitch = 100
+End
+
+Tough+Rifle "Ging.osk"
+	Skill = 67
+	Aggression = 65
+	AttackDelay = 0
+  Skin = 1
 	VoicePitch = 96
 End
 
-Fair Wyatt
+Tough+RifleT "Who?"
+	Skill = 55
+	Aggression = 100
+	ReactionTime = 0.6
+	AttackDelay = 0.6
+  Skin = 1
+	VoicePitch = 100
+End
+
+Tough+RifleT "Blessed to Moonwalk"
+	Skill = 65
+	Aggression = 90
+    Skin = 2
+	VoicePitch = 95
+End
+
+Tough+Rifle "Wah-Wah Effect"
+    Skin = 2
+    VoicePitch = 104
+End
+
+Tough+AutoSniper L337BunnyReisen
+    Skin = 2
+    VoicePitch = 102
+End
+
+Tough+Rifle komii
+    Skin = 4
+    VoicePitch = 112
+End
+
+Tough+Shotgun pwnisnotaword
+    Skin = 1
+    VoicePitch = 90
+End
+
+ToughSNIPER+Sniper 2fragz
+        VoicePitch = 120
+End
+
+ToughSNIPER+AutoSniper Sadie
+        VoicePitch = 121
+End
+
+Tough+OtherWeapons "Snoopy007"
+        VoicePitch = 104
+End
+
+Tough+OtherWeapons "#MANU"
+        VoicePitch = 95
+End
+
+ToughARG+RifleT gurrenbuster17
+        VoicePitch = 110
+End
+
+ToughARG+Rifle "RE-L"
+        VoicePitch = 102
+End
+
+ToughARG+RifleT "2 2 4 o n d e r r i e s e"
+        VoicePitch = 98
+End
+
+Tough+Rifle "ʜɪʀᴀɪ ᴍᴏᴍᴏ"
+	Skin = 2
+	VoicePitch = 104
+End
+
+Tough+Rifle "Ralvos"
+	Skin = 2
+	VoicePitch = 100
+End
+
+Tough+RifleT "7 year old"
+	Skin = 4
+	VoicePitch = 95
+End
+
+Tough+Rifle "Bonnibel"
+	Skin = 1
+	VoicePitch = 86
+End
+
+Tough+RifleT "sorry"
+	Skin = 2
+	VoicePitch = 100
+End
+
+Tough+Sniper "RJK"
+	Skin = 3
+	VoicePitch = 120
+End
+
+Tough+Sniper Snuggles
+	Skin = 3
+	VoicePitch = 120
+End
+
+Tough+Sniper "paintedblack_ck"
+	Skin = 3
+	VoicePitch = 120
+End
+
+Tough+Rifle "kostni"
+	Skin = 1
+	VoicePitch = 100
+End
+
+Tough "FiveOClock Tea"
+	Skin = 1
+	VoicePitch = 100
+End
+
+Tough+Rifle Jingles
+	Skin = 2
+	VoicePitch = 102
+End
+
+Tough+Rifle "MDK Vindictive"
+	Skin = 2
+	VoicePitch = 102
+End
+
+Tough+Shotgun Antitry
+	Skin = 1
+	VoicePitch = 95
+End
+
+Tough+RifleT PrK
+	Skin = 2
+	VoicePitch = 110
+End
+
+Tough+AutoSniperT "Aelfric RZ"
+	Skin = 1
+	VoicePitch = 90
+End
+
+Tough+RifleT "Viralex"
+	Skin = 4
+	VoicePitch = 107
+End
+
+Tough+Sniper Noise-Less
+	Skin = 3
+	VoicePitch = 120
+End
+
+Tough+Rifle "[$carFace]"
+	Skin = 1
+	VoicePitch = 100
+End
+
+Tough+Rifle Bubbles-Ops
+	Skin = 2
+	VoicePitch = 104
+End
+
+Tough+RifleT GrandSpammer
+	Skin = 4
+	VoicePitch = 98
+End
+
+ToughSNIPER+SniperPro Fub
+	Skin = 1
+	VoicePitch = 100
+End
+
+Tough+Rifle Donkey_Kong
+	Skin = 2
+	VoicePitch = 102
+End
+
+Tough+Shotgun xDamian
+	Skin = 4
+	VoicePitch = 95
+End
+
+Tough+Rifle BunBun343
+	Skin = 1
+	VoicePitch = 95
+End
+
+Tough+RifleT KimKat
+	Skin = 2
+	VoicePitch = 110
+End
+
+Tough+Rifle Deadmonkey
+	Skin = 4
+	VoicePitch = 112
+End
+
+Tough+Spray Hitman407
+	Skin = 1
+	VoicePitch = 90
+End
+
+Tough+Rifle "Terror_"
+	Skin = 2
+	VoicePitch = 115
+End
+
+Tough+RifleT Fallqvist
+	Skin = 4
+	VoicePitch = 107
+End
+
+Tough+Rifle Azork
+	Skin = 2
+	VoicePitch = 102
+End
+
+//----------------------------------------
+
+Normal+AutoSniperT "Coriolis"
+    Skill = 65
+		Aggression = 0
+		ReactionTime = 0.8
+		Skin = 1
+    VoicePitch = 105
+End
+
+Normal+Punch "El Terrible"
+    Skin = 2
+    VoicePitch = 90
+End
+
+Normal+Rifle "kunitori"
+	Aggression = 100
+  Skin = 4
+	VoicePitch = 105
+End
+
+Normal+PunchT Aimboat
+	Aggression = 90
+  Skin = 3
+	VoicePitch = 90
+End
+
+Normal+AutoSniper "xizt"
+    Skin = 4
+    VoicePitch = 98
+End
+
+Normal+Spray "Error 404 no skill found"
+	Skill = 55
+	Aggression = 55
+	AttackDelay = 0.9
+  Skin = 2
+	VoicePitch = 107
+End
+
+Normal+Spray "Maewri"
+	Skill = 49
+  Skin = 1
+	VoicePitch = 100
+End
+
+Normal+OtherWeapons "Dyesphoon"
+	Skill = 54
+	Aggression = 100
+	ReactionTime = 0.01
+  Skin = 1
+	VoicePitch = 96
+End
+
+Normal+OtherWeapons "Mazumé"
+	Skill = 55
+	Aggression = 100
+	ReactionTime = 0.5
+	AttackDelay = 0.5
+	VoicePitch = 110
+End
+
+Normal+Spray " torinsangel"
+	Skill = 68
+	Aggression = 47
+	AttackDelay = 0
+  Skin = 2
+	VoicePitch = 95
+End
+
+Normal+RifleT "Kra Z"
+	Skill = 43
+	Aggression = 100
+	AttackDelay = 0.5
+  Skin = 2
+  VoicePitch = 100
+End
+
+Normal+OtherWeapons Beni
+	Skill = 50
+	Aggression = 47
+	AttackDelay = 0
+  Skin = 2
+	VoicePitch = 95
+End
+
+Normal+RifleT "lotte_"
+	Skill = 46
+  Skin = 2
+  VoicePitch = 110
+End
+
+Normal+Rifle "purplecj"
+	VoicePitch = 95
+	Skin = 1
+End
+
+Normal+Rifle "flatlander"
+  Skin = 2
+	VoicePitch = 110
+End
+
+Normal+RifleT Bucus
+    Skin = 3
+		VoicePitch = 85
+End
+
+Normal+Spray Rinmen
+    Aggression = 5
+    ReactionTime = 0.308
+    VoicePitch = 115
+End
+
+Normal+Rifle "Crouching Camper Hidden Noob"
+        VoicePitch = 105
+End
+
+NormalARG+PunchT "Love Blister"
+        VoicePitch = 90
+End
+
+Normal+RiflePro okuudere
+        VoicePitch = 105
+End
+
+Normal+RiflePro "|Lonely|"
+        VoicePitch = 90
+End
+
+Normal+Spray "blood <3"
+        VoicePitch = 100
+End
+
+NormalSNIPER+AutoSniper "ღERy WoCKER ツ"
+        VoicePitch = 107
+End
+
+NormalSNIPER+AutoSniperT De_stroyed
+        VoicePitch = 104
+End
+
+NormalARG+RifleT WerX
+        VoicePitch = 110
+End
+
+NormalARG+Punch "Vsolid"
+        VoicePitch = 95
+End
+
+NormalARG+OtherWeapons Electric.eYe
+        VoicePitch = 112
+End
+
+NormalSNIPER+AutoSniperT "Depression Session"
+        VoicePitch = 111
+End
+
+NormalSNIPER+OtherWeapons "rushuna chan"
+        VoicePitch = 115
+End
+
+NormalSNIPER+AutoSniperT "Z file Not Found"
+        VoicePitch = 95
+End
+
+Normal+Shotgun "Highest K/D"
+        VoicePitch = 100
+End
+
+NormalARG+Spray "Irenexis"
+        VoicePitch = 99
+End
+
+Normal+OtherWeapons "GurU1859"
+        VoicePitch = 115
+End
+
+NormalARG+OtherWeapons "bored"
+        VoicePitch = 92
+End
+
+Normal+Rifle Sandler785
+	Skin = 1
+	VoicePitch = 105
+End
+
+Normal+RifleT "Minecraft Steve"
+	Skin = 2
+	VoicePitch = 110
+End
+
+Normal+RifleT MINECRAP
+	Skin = 4
+	VoicePitch = 112
+End
+
+Normal+RifleT owoman
+	Skin = 1
+	VoicePitch = 96
+End
+
+Normal+RifleT kenny2001
+	Skin = 2
+	VoicePitch = 98
+End
+
+Normal+RifleT parro192
+	Skin = 4
+	VoicePitch = 110
+End
+
+Normal+RifleT matthew666
+	Skin = 1
+	VoicePitch = 95
+End
+
+Normal+RifleT michael2004
+	Skin = 2
+	VoicePitch = 100
+End
+
+Normal+Punch minecraftpro235
+	Skin = 2
+	VoicePitch = 115
+End
+
+Normal+Rifle Sandler785
+	Skin = 1
+	VoicePitch = 105
+End
+
+Normal+Rifle "5outhPaw"
+	Skin = 1
+	VoicePitch = 104
+End
+
+Normal+Sniper Snoopy
+	Skin = 2
+	VoicePitch = 110
+End
+
+Normal "Sally Blue"
+	Skin = 3
+	VoicePitch = 95
+End
+
+Normal+Sniper "Depressed Smokey"
+	Skin = 3
+	VoicePitch = 115
+End
+
+Normal kenny2001
+	Skin = 2
+	VoicePitch = 98
+End
+
+Normal+RifleT michael2004
+	Skin = 2
+	VoicePitch = 100
+End
+
+Normal J3Ry
+	Skin = 3
+	VoicePitch = 110
+End
+
+Normal+PunchT xaos
+	Skin = 2
+	VoicePitch = 90
+End
+
+Normal "龍秋田"
+	Skin = 3
+	VoicePitch = 100
+End
+
+Normal+RifleT "нεcкαвσσ"
+	Skin = 1
+	VoicePitch = 104
+End
+
+Normal "Saturated Fat"
+	Skin = 2
+	VoicePitch = 110
+End
+
+Normal "I A M. B A D"
+	Skin = 3
+	VoicePitch = 95
+End
+
+Normal "Sodomized EM"
+	Skin = 4
+	VoicePitch = 112
+End
+
+Normal "madonna ;)"
+	Skin = 2
+	VoicePitch = 98
+End
+
+Normal PastaPot
+	Skin = 4
+	VoicePitch = 110
+End
+
+Normal "[AMX] SpaceCheese™"
+	Skin = 1
+	VoicePitch = 95
+End
+
+Normal+RifleT kiu
+	Skin = 2
+	VoicePitch = 100
+End
+
+Normal "夢镜"
+	Skin = 4
+	VoicePitch = 99
+End
+
+Normal "丨屿昊丨"
+	Skin = 3
+	VoicePitch = 98
+End
+
+Normal "陈心"
+	Skin = 1
+	VoicePitch = 105
+End
+
+Normal EMH
+	Skin = 2
+	VoicePitch = 115
+End
+
+Normal "这只是一个开始"
+	Skin = 3
+	VoicePitch = 110
+End
+
+Normal "Youth~D"
+	Skin = 4
+	VoicePitch = 92
+End
+
+Normal+PunchT touhoufreak
+	Skin = 2
+	VoicePitch = 90
+End
+
+Normal+SniperPro "epic fortnite sans gamer"
+	Skin = 3
+	VoicePitch = 100
+End
+
+Normal+AutoSniperT Aceman
+	Skin = 4
+	VoicePitch = 107
+End
+
+Normal corrion1
+	Skin = 1
+	VoicePitch = 104
+End
+
+Normal Mykah
+	Skin = 2
+	VoicePitch = 110
+End
+
+Normal Vio
+	Skin = 3
+	VoicePitch = 95
+End
+
+Normal RME
+	Skin = 4
+	VoicePitch = 112
+End
+
+Normal Punisher
+	Skin = 1
+	VoicePitch = 111
+End
+
+Normal+Sniper "Crimson Dreams"
+	Skin = 3
+	VoicePitch = 115
+End
+
+Normal Saitek
+	Skin = 4
+	VoicePitch = 112
+End
+
+Normal Chaos
+	Skin = 1
+	VoicePitch = 96
+End
+
+Normal Rootbeerz
+	Skin = 2
+	VoicePitch = 98
+End
+
+Normal ExtraOrdinary
+	Skin = 4
+	VoicePitch = 110
+End
+
+Normal+Power Rz_PI
+	Skin = 1
+	VoicePitch = 95
+End
+
+Normal+RifleT AoM
+	Skin = 2
+	VoicePitch = 100
+End
+
+Normal Sukkamehu
+	Skin = 4
+	VoicePitch = 99
+End
+
+Normal "Captain Clark"
+	Skin = 3
+	VoicePitch = 98
+End
+
+Normal "大好き倶楽部カズクラ"
+	Skin = 1
+	VoicePitch = 105
+End
+
+Normal TheLibermania
+	Skin = 2
+	VoicePitch = 115
+End
+
+Normal "つくも"
+	Skin = 3
+	VoicePitch = 110
+End
+
+Normal "Ecktor"
+	Skin = 4
+	VoicePitch = 92
+End
+
+//----------------------------------------
+
+Fair+RifleT luize
+	Aggression = 1
+	ReactionTime = 0.07
+	AttackDelay = 0.0
+	VoicePitch = 110
+End
+
+Fair+Rifle Zky
+	Aggression = 100
+	Skin = 3
+	VoicePitch = 98
+End
+
+Fair+Spray "zoki zoki"
+	Aggression = 100
+	ReactionTime = 0.5
+	AttackDelay = 0.5
+	VoicePitch = 120
+End
+
+Fair+RifleT "drunk oni"
+	Skill = 45
+	Aggression = 86
+	ReactionTime = 0.9
+	VoicePitch = 110
+End
+
+Fair+Spray "Consume your Calcium"
+	Aggression = 40
+	ReactionTime = 0.6
+	AttackDelay = 0.5
+	VoicePitch = 120
+End
+
+Fair+Spray "McHangay asfucK"
+	Aggression = 0
+	ReactionTime = 0.5
+	AttackDelay = 0.5
+	VoicePitch = 118
+End
+
+Fair+Shotgun "forkyod"
+	Skill = 45
+	Aggression = 100
+	ReactionTime = 0.6
+	AttackDelay = 0.1
+	VoicePitch = 116
+End
+
+Fair+Shotgun "【✪Hirotara✪】"
+	Skill = 45
+	Aggression = 30
+	ReactionTime = 0.01
+	AttackDelay = 0.1
+	VoicePitch = 114
+End
+
+Fair+Shotgun "Mama Shinki"
+	Skill = 40
+	Aggression = 0
+	VoicePitch = 110
+End
+
+Fair+Punch "Über Yuuka"
+	Skill = 45
+	Aggression = 25
+	ReactionTime = 0.308
+	VoicePitch = 92
+End
+
+Fair+Sniper nikerscz
+	Aggression = 10
+	ReactionTime = 0.6
+	AttackDelay = 0.6
+	VoicePitch = 113
+End
+
+Fair+OtherWeapons mokku
+	Skill = 50
+	Aggression = 0
+	ReactionTime = 0.308
+	AttackDelay = 0.5
+	VoicePitch = 114
+End
+
+Fair+OtherWeapons homriette
+	Skill = 50
+	Aggression = 0
+	AttackDelay = 1
+	VoicePitch = 100
+End
+
+Fair+Rifle "Space Jin"
+	ReactionTime = 0.308
+	AttackDelay = 0.6
+	VoicePitch = 102
+End
+
+Fair+Rifle "Chris P. Bacon"
+	Aggression = 50
+	VoicePitch = 98
+End
+
+Fair+Spray kremit
+	Skill = 45
+	Aggression = 65
+	ReactionTime = 0.01
+	AttackDelay = 0.5
+	Skin = 3
+    VoicePitch = 110
+End
+
+Fair+Rifle "Ruukoto"
+    Skill = 40
+    Aggression = 34
+    ReactionTime = 0.01
+    AttackDelay = 0.5
+		Skin = 1
+    VoicePitch = 102
+End
+
+Fair+RifleT "Yuki-chan<3"
+    Skin = 2
+    VoicePitch = 98
+End
+
+Fair+Spray "Quintessence"
+	Skill = 45
+	Aggression = 65
+	ReactionTime = 0.01
+	AttackDelay = 0.5
+	Skin = 3
+    VoicePitch = 110
+End
+
+Fair+AutoSniper bait
+	Skill = 30
+	Aggression = 55
+	ReactionTime = 0.3
+	VoicePitch = 110
+    Skin = 2
+End
+
+Fair+Spray omydarling
+    Skin = 3
+    VoicePitch = 120
+End
+
+Fair+Sniper slppers
+    Skin = 4
+    VoicePitch = 98
+End
+
+Fair+Punch orange
+    Skin = 1
+    VoicePitch = 90
+End
+
+Fair+RiflePro TheMetr0
+        VoicePitch = 100
+End
+
+Fair+OtherWeapons "『Orin』"
+        VoicePitch = 98
+End
+
+FairSNIPER+Sniper "misty :3"
+        VoicePitch = 112
+End
+
+Fair+Spray "iron or gold"
+	VoicePitch = 120
+End
+
+FairSNIPER+AutoSniperT hacker5632
+	VoicePitch = 111
+End
+
+Fair+Punch AwesomeGuy56345
+	VoicePitch = 98
+End
+
+Fair+Punch MCSans
+	VoicePitch = 112
+End
+
+Fair+AutoSniperT 69
+	VoicePitch = 90
+End
+
+Fair+AutoSniperT Asphalt
+	VoicePitch = 120
+End
+
+Fair+Spray Res
+	VoicePitch = 112
+End
+
+Fair+RifleT NidgeDFX
+	VoicePitch = 114
+End
+
+Fair+RifleT xXMLGPro79Xx
+	VoicePitch = 100
+End
+
+Fair+Shotgun "sans undertale"
+	VoicePitch = 98
+End
+
+Fair+RifleT "Lucas SBS"
+	VoicePitch = 96
+End
+
+Fair+SniperPro "Professional Robloxian"
+	VoicePitch = 94
+End
+
+Fair Pr3d
+	VoicePitch = 110
+End
+
+Fair "Ba[R]aD`"
+	VoicePitch = 99
+End
+
+Fair "Project-H"
+	VoicePitch = 90
+End
+
+Fair+Spray Etouxen
+	VoicePitch = 112
+End
+
+Fair+RiflePro "Daddy Meme Master"
+	VoicePitch = 114
+End
+
+Fair M4rt1n
+	VoicePitch = 110
+End
+
+Fair "Тут могла быть ваша реклама"
+	VoicePitch = 114
+End
+
+Fair Kaku
+	VoicePitch = 115
+End
+
+Fair xXMLGPro79Xx
+	VoicePitch = 100
+End
+
+Fair alkeiakh
+        VoicePitch = 100
+End
+
+Fair "Yung Gud"
+        VoicePitch = 99
+End
+
+Fair+Spray "✞_Hell_Hound_✞"
+        VoicePitch = 120
+End
+
+Fair D33n
+        VoicePitch = 111
+End
+
+Fair+AutoSniperT CHASEDADDY
+        VoicePitch = 112
+End
+
+Fair lidquid
+        VoicePitch = 90
+End
+
+Fair sarPE
+        VoicePitch = 120
+End
+
+Fair+Sniper "Боб Марли"
+        VoicePitch = 118
+End
+
+Fair "AWP LONG"
+        VoicePitch = 116
+End
+
+Fair+Shotgun "shrekt delta"
+        VoicePitch = 114
+End
+
+Fair "Awesome Lobster"
+        VoicePitch = 110
+End
+
+Fair "roket reag"
+        VoicePitch = 98
+End
+
+Fair Apres
+        VoicePitch = 92
+End
+
+Fair d00dle
+        VoicePitch = 113
+End
+
+Fair skaaaole
+        VoicePitch = 114
+End
+
+Fair "дИПЛО"
+        VoicePitch = 115
+End
+
+Fair "дИПЛОМ"
+        VoicePitch = 100
+End
+
+Fair "Героин"
+        VoicePitch = 102
+End
+
+Fair+Shotgun "Gkaraka_SG"
+        VoicePitch = 98
+End
+
+Fair+Shotgun "daredevil desertboy"
+        VoicePitch = 96
+End
+
+Fair daisukekazama
+	VoicePitch = 110
+End
+
+Fair "FurionZ"
+	VoicePitch = 100
+End
+
+Fair Sparkeh
+	VoicePitch = 99
+End
+
+Fair+Spray theDark
+	VoicePitch = 120
+End
+
+Fair Fallen
+	VoicePitch = 98
+End
+
+Fair+Shotgun x1337x
+	VoicePitch = 112
+End
+
+Fair+Shotgun "Summerlycoris"
+	VoicePitch = 90
+End
+
+Fair Lost
+	VoicePitch = 120
+End
+
+Fair Kaboom
+	VoicePitch = 114
+End
+
+Fair Markslo1
+	VoicePitch = 110
+End
+
+Fair Blackhole
+	VoicePitch = 98
+End
+
+Fair Deadpixel
+	VoicePitch = 92
+End
+
+Fair+Spray Amen
+	VoicePitch = 114
+End
+
+Fair "Matt_"
+	VoicePitch = 115
+End
+
+Fair CA300S3
+	VoicePitch = 100
+End
+
+Fair+Shotgun Crazypip666
+	VoicePitch = 102
+End
+
+Fair+Shotgun G-Flow
+	VoicePitch = 98
+End
+
+Fair+PunchT SuicidalMofo
+	VoicePitch = 96
+End
+
+Fair+Power WildWolf
 	VoicePitch = 94
 End
 
 //----------------------------------------
 
-Easy Albert
+Easy+RifleT sephrider
+	Aggression = 30
 	VoicePitch = 100
 End
 
-Easy Allen
+Easy+RifleT "Mr.Banana"
+	Aggression = 46
+	ReactionTime = 0.9
+	AttackDelay = 0.0
 	VoicePitch = 110
 End
 
-Easy Bert
+Easy+Punch "Chiki"
+	Skill = 45
+	ReactionTime = 0.03
 	VoicePitch = 120
 End
 
-Easy Bob
+Easy+AutoSniper Bahoi
+	Skill = 25
+	Aggression = 100
+	ReactionTime = 0.308
+	AttackDelay = 0.5
 	VoicePitch = 99
 End
 
-Easy Cecil
-	VoicePitch = 120
-End
-
-Easy Clarence
-	VoicePitch = 125
-End
-
-Easy Elliot
-	VoicePitch = 110
-End
-
-Easy Elmer
+Easy+SupremeT "Stamps"
+	Skill = 10
+	Aggression = 30
+	ReactionTime = 0.03
+	AttackDelay = 0.6
 	VoicePitch = 100
 End
 
-Easy Ernie
-	VoicePitch = 112
-End
-
-Easy Eugene
+Easy+RifleT "Vengeful Spirit"
+	Skill = 30
+	Aggression = 60
 	VoicePitch = 121
 End
 
-Easy Fergus
+Easy+Rifle "namu_"
+	Skill = 20
+	Aggression = 40
+	ReactionTime = 0.308
+	AttackDelay = 0
 	VoicePitch = 99
 End
 
-Easy Ferris
-	VoicePitch = 119
+Easy+RiflePro "You're Dead!"
+    Skill = 34
+    ReactionTime = 0.308
+    AttackDelay = 0
+    Teamwork = 43
+    Aggression = 100
+    VoicePitch = 140
 End
 
-Easy Frank
-	VoicePitch = 118
+Easy+RifleT "Beggin' You"
+	Aggression = 30
+	VoicePitch = 100
 End
 
-Easy Frasier
-	VoicePitch = 117
-End
-
-Easy Fred
-	VoicePitch = 116
-End
-
-Easy George
-	VoicePitch = 115
-End
-
-Easy Graham
-	VoicePitch = 114
-End
-
-Easy Harvey
-	VoicePitch = 112
-End
-
-Easy Irwin
-	VoicePitch = 111
-End
-
-Easy Lester
+Easy+RifleT "salmon11201"
+	Aggression = 46
+	ReactionTime = 0.9
+	AttackDelay = 0.0
 	VoicePitch = 110
 End
 
-Easy Marvin
-	VoicePitch = 109
-End
-
-Easy Neil
-	VoicePitch = 108
-End
-
-Easy Niles
-	VoicePitch = 122
-End
-
-Easy Oliver
+Easy+Punch "Loberia"
+	Skill = 45
+	ReactionTime = 0.03
 	VoicePitch = 120
 End
 
-Easy Opie
-	VoicePitch = 125
-End
-
-Easy Toby
-	VoicePitch = 92
-End
-
-Easy Ulric
-	VoicePitch = 100
-End
-
-Easy Ulysses
-	VoicePitch = 102
-End
-
-Easy Uri
-	VoicePitch = 104
-End
-
-Easy Waldo
-	VoicePitch = 108
-End
-
-Easy Wally
-	VoicePitch = 95
-End
-
-Easy Walt
-	VoicePitch = 100
-End
-
-Easy Wesley
-	VoicePitch = 120
-End
-
-Easy Yanni
-	VoicePitch = 112
-End
-
-Easy Yogi
+Easy+AutoSniper "メイmei"
+	Skill = 25
+	Aggression = 100
+	ReactionTime = 0.308
+	AttackDelay = 0.5
 	VoicePitch = 99
 End
 
-Easy Yuri
+Easy+Punch "Ciel1820"
+	Skill = 10
+	Aggression = 30
+	ReactionTime = 0.03
+	AttackDelay = 0.6
+	VoicePitch = 100
+End
+
+Easy+RifleT "toto by africa"
+	Skill = 30
+	Aggression = 60
+	VoicePitch = 121
+	LookAngleMaxAccelNormal = 3000.0
+	LookAngleStiffnessNormal = 200.0
+	LookAngleDampingNormal = 25.0
+	LookAngleMaxAccelAttacking = 3000.0
+	LookAngleStiffnessAttacking = 300.0
+	LookAngleDampingAttacking = 30.0
+End
+
+Easy+Power "Alyrics"
+	Skill = 35
+	Aggression = 0
+	ReactionTime = 0.308
+	AttackDelay = 0
+	VoicePitch = 108
+End
+
+Easy+Rifle "ATA47"
+	Skill = 20
+	Aggression = 40
+	ReactionTime = 0.308
+	AttackDelay = 0
+	VoicePitch = 99
+End
+
+Easy+Sniper You
+	Skill = 27
+	AttackDelay = 0.1
+	VoicePitch = 116
+	LookAngleMaxAccelNormal = 3000.0
+	LookAngleStiffnessNormal = 200.0
+	LookAngleDampingNormal = 25.0
+	LookAngleMaxAccelAttacking = 3000.0
+	LookAngleStiffnessAttacking = 300.0
+	LookAngleDampingAttacking = 30.0
+End
+
+Easy+Sniper "Godly Object"
+	Skill = 40
+	Aggression = 100
+	VoicePitch = 115
+End
+
+Easy+PunchT "Julius"
+	Skill = 38
+	Aggression = 100
+	ReactionTime = 0.01
+	AttackDelay = 0
+	VoicePitch = 98
+End
+
+Easy+PunchT Dankey
+	Skill = 25
+	ReactionTime = 1
+	AttackDelay = 0
+	VoicePitch = 111
+End
+
+Easy+Power "Seriously?"
+	Skill = 40
+	Aggression = 34
+	ReactionTime = 0.01
+	AttackDelay = 0.5
+	VoicePitch = 110
+End
+
+Easy+Power "y2k"
+	Skill = 35
+	Aggression = 0
+	ReactionTime = 0.308
+	AttackDelay = 0
+	VoicePitch = 108
+End
+
+Easy+Shotgun "Zomalia"
+	Skill = 32
+	Aggression = 45
+	ReactionTime = 0.8
+	AttackDelay = 0
+	VoicePitch = 100
+End
+
+Easy+RifleT Tatsumaki
+	Skill = 24
+	Aggression = 49
+	VoicePitch = 104
+	LookAngleMaxAccelNormal = 3000.0
+	LookAngleStiffnessNormal = 200.0
+	LookAngleDampingNormal = 25.0
+	LookAngleMaxAccelAttacking = 3000.0
+	LookAngleStiffnessAttacking = 300.0
+	LookAngleDampingAttacking = 30.0
+End
+
+Easy+RifleT Mantaro
+	Skill = 35
+	ReactionTime = 1
+	VoicePitch = 108
+End
+
+Easy+Spray Vinda
+	Skill = 32
+	Aggression = 100
+	ReactionTime = 0.308
+	AttackDelay = 0
+	VoicePitch = 100
+End
+
+Easy+Punch "Good Ol' Davy"
+	Skill = 43
+	Aggression = 32
+	ReactionTime = 0.1
+	AttackDelay = 0.15
+	VoicePitch = 120
+	LookAngleMaxAccelNormal = 3000.0
+	LookAngleStiffnessNormal = 200.0
+	LookAngleDampingNormal = 25.0
+	LookAngleMaxAccelAttacking = 3000.0
+	LookAngleStiffnessAttacking = 300.0
+	LookAngleDampingAttacking = 30.0
+
+End
+
+Easy+Sniper "WaterLoo"
+	Skill = 40
+	Aggression = 100
+	VoicePitch = 115
+End
+
+Easy+Punch "『ホシロ•レイト』"
+	Skill = 42
+	Aggression = 35
+	ReactionTime = 0.9
+	VoicePitch = 120
+End
+
+Easy+Rifle "Lewdachris"
+	Skill = 23
+	Aggression = 100
+	ReactionTime = 0.3
+	VoicePitch = 99
+End
+
+Easy+Rifle KPOT
+	Skill = 35
+	Aggression = 45
+	VoicePitch = 110
+End
+
+Easy+Punch No
+	Skill = 23
+	Aggression = 100
+	ReactionTime = 0.1
+	VoicePitch = 110
+    Skin = 4
+End
+
+Easy+Sniper DohnJoe
+  Skin = 3
+  VoicePitch = 118
+End
+
+Easy+Rifle simster
+	Skin = 1
+    VoicePitch = 112
+End
+
+Easy+Spray easymeat
+	Skin = 4
+  VoicePitch = 111
+End
+
+Easy+Punch Tuturu
+  Skin = 2
+	VoicePitch = 115
+End
+
+Easy+Rifle Mayushii
+	Skin = 3
+  VoicePitch = 120
+End
+
+Easy+OtherWeapons Rena.
+        VoicePitch = 99
+End
+
+Easy+PunchT outcourge
+        VoicePitch = 125
+End
+
+Easy+Punch importedBEER
+        VoicePitch = 110
+End
+
+Easy+RifleT "蒼凜月"
+        VoicePitch = 100
+End
+
+Easy+Rifle "Kyu >3<"
+        VoicePitch = 112
+End
+
+Easy+OtherWeapons killplz
+        VoicePitch = 121
+End
+
+Easy+Spray nofood4you
+        VoicePitch = 99
+End
+
+Easy+OtherWeapons useeme
+        VoicePitch = 119
+End
+
+Easy+Power Igottawinman
+        VoicePitch = 116
+End
+
+Easy+Shotgun "LoVe ME"
+        VoicePitch = 115
+End
+
+Easy+OtherWeapons "lo-fi"
+        VoicePitch = 92
+End
+
+Easy+OtherWeapons "JollyJune"
+        VoicePitch = 100
+End
+
+Easy+OtherWeapons NiTron
+        VoicePitch = 102
+End
+
+Easy+RifleT ioRek
+        VoicePitch = 95
+End
+
+Easy+AutoSniper naSu
+        VoicePitch = 100
+End
+
+Easy+AutoSniperT "★Hentai★Senpai★"
+        VoicePitch = 112
+End
+
+Easy+RiflePro "❤BigSophie❤"
+	VoicePitch = 100
+End
+
+Easy+AutoSniperT "老 阴 逼"
+	VoicePitch = 100
+End
+
+Easy+Shotgun "Диплом"
+        VoicePitch = 92
+End
+
+Easy stupid
+        VoicePitch = 102
+End
+
+Easy YNM
+        VoicePitch = 108
+End
+
+Easy+Shotgun "Жирный Мэд"
+        VoicePitch = 95
+End
+
+Easy+Shotgun "ДаНетВозможно"
+        VoicePitch = 100
+End
+
+Easy "Flur"
+        VoicePitch = 120
+End
+
+Easy animeboy345
+        VoicePitch = 110
+End
+
+Easy Ajin
+        VoicePitch = 100
+End
+
+Easy "Tyrone The KFC Manager"
+        VoicePitch = 110
+End
+
+Easy+Shotgun "人間の屑"
+        VoicePitch = 99
+End
+
+Easy+RifleT "Depressed Optimist"
+        VoicePitch = 120
+		Aggression = 10
+End
+
+Easy+SniperPro "unloyal KFC employee"
+        VoicePitch = 125
+End
+
+Easy WeAkness
+        VoicePitch = 110
+End
+
+Easy+SniperPro rothy
+        VoicePitch = 100
+End
+
+Easy TZUGARIS
+        VoicePitch = 112
+End
+
+Easy "H.C. Brown"
+        VoicePitch = 121
+End
+
+Easy "J-Rusty"
+        VoicePitch = 99
+End
+
+Easy miyanaki
+        VoicePitch = 119
+End
+
+Easy "Filthy Frank Anime Hunter"
+Easy+Shotgun "LoVe ME"
+        VoicePitch = 115
+End
+
+Easy+OtherWeapons "Deebo"
+        VoicePitch = 92
+End
+
+Easy+OtherWeapons "wqeq33"
+        VoicePitch = 100
+End
+
+Easy+OtherWeapons Sieger
+        VoicePitch = 102
+End
+
+Easy+RifleT Uldihaa
+        VoicePitch = 95
+End
+
+Easy+AutoSniper Nazeem
+        VoicePitch = 100
+End
+
+Easy+AutoSniperT "420"
+        VoicePitch = 112
+End
+
+Easy+Shotgun "『ミステリー…』〜????????（`･⊝･´ ）"
+        VoicePitch = 117
+End
+
+Easy+Shotgun 'ペンギン
+        VoicePitch = 116
+End
+
+Easy+Shotgun "Calcium Von Magnesium"
+        VoicePitch = 115
+End
+
+Easy Yonebayashi
+        VoicePitch = 114
+End
+
+Easy "Wáng Hào"
+        VoicePitch = 110
+End
+
+Easy+Sniper "Heffy (ツ)"
+	VoicePitch = 100
+End
+
+Easy+PunchT "Ezra F."
+	VoicePitch = 110
+End
+
+Easy+Shotgun "Kanyonatic"
+	VoicePitch = 99
+End
+
+Easy+SniperPro "C18"
+	VoicePitch = 120
+End
+
+Easy+AutoSniperT "hellware"
+	VoicePitch = 114
+End
+
+Easy TwistedKiller
+	VoicePitch = 112
+End
+
+Easy+Shotgun "Slothicity"
+	VoicePitch = 111
+End
+
+Easy+Shotgun "pink wafers"
+	VoicePitch = 110
+End
+
+Easy -Scorpion-
+	VoicePitch = 109
+End
+
+Easy+Sniper ArsArma
+	VoicePitch = 108
+End
+
+Easy+Sniper "Gearston"
+	VoicePitch = 122
+End
+
+Easy "skeletonsinscarves"
+	VoicePitch = 120
+End
+
+Easy XSS3
+	VoicePitch = 125
+End
+
+Easy "DoriGen"
+	VoicePitch = 92
+End
+
+Easy Morimada
+	VoicePitch = 100
+End
+
+Easy "BRAVE FØX"
+	VoicePitch = 102
+End
+
+Easy "P[i]zza"
+	VoicePitch = 104
+End
+
+Easy "Sachari"
+	VoicePitch = 108
+End
+
+Easy "Benjiman113"
+	VoicePitch = 95
+End
+
+Easy "SweetNSourMelon"
+	VoicePitch = 100
+End
+
+Easy "The Bad Ass Echidna"
+	VoicePitch = 120
+End
+
+Easy "Sinthorana"
+	VoicePitch = 112
+End
+
+Easy+Shotgun "steppinrazor"
+	VoicePitch = 99
+End
+
+Easy Windows98
+	VoicePitch = 110
+End
+
+Easy+Rifle Mayushii
+	Skin = 3
+  VoicePitch = 120
+End
+
+//------------------------------------------
+
+VeryEasy+OtherWeapons "jjj14"
+  VoicePitch = 84
+End
+
+VeryEasy+Punch Chip
+  Skin = 2
+  VoicePitch = 100
+End
+
+VeryEasy+Rifle "Vitamin C"
+  Skin = 4
+  VoicePitch = 104
+End
+
+VeryEasy+Punch Brutus
+  Skin = 1
+  VoicePitch = 110
+End
+
+VeryEasy+Punch "JUSES CHIRST"
+  VoicePitch = 84
+End
+
+VeryEasy+Punch barrymk400
+  Skin = 2
+  VoicePitch = 100
+End
+
+VeryEasy+SniperPro "The Protagonist"
+  Skin = 4
+  VoicePitch = 104
+End
+
+VeryEasy+Punch Brutus
+  Skin = 1
+  VoicePitch = 110
+End
+
+VeryEasy+Punch VAMPIR
+	ReactionTime = 0.03
+	AttackDelay = 0.6
+	Skin = 3
+	VoicePitch = 105
+End
+
+VeryEasy+Rifle "ХУЯРЮЩИЙ ЧИТЕРОВ"
+	Skin = 2
+	VoicePitch = 100
+End
+
+VeryEasy+RifleT "Chrille med tvärflöjten"
+	Skin = 4
+	VoicePitch = 86
+End
+
+VeryEasy+RifleT chVo
+	Skin = 2
+	VoicePitch = 90
+End
+
+VeryEasy+Shotgun "SantaDog81"
+	Skin = 1
+	VoicePitch = 98
+End
+
+VeryEasy+RifleT "Nasheed"
+	Skin = 2
+	VoicePitch = 96
+End
+
+VeryEasy+OtherWeapons "Quiesent"
+	Skin = 4
+	VoicePitch = 103
+End
+
+VeryEasy+Rifle 1337
+	Skin = 2
+	VoicePitch = 97
+End
+
+VeryEasy+Rifle miner1234
+	Skin = 4
+	VoicePitch = 84
+End
+
+VeryEasy+PunchT baguette
+	Skin = 1
+	VoicePitch = 90
+End
+
+VeryEasy+Sniper john2134
+	Skin = 3
+	VoicePitch = 110
+End
+
+VeryEasy+Shotgun "Lamborgihni thristy"
+        VoicePitch = 109
+End
+
+VeryEasy+Shotgun "Nagibalnik777"
+        VoicePitch = 108
+End
+
+VeryEasy "_THENiles"
+        VoicePitch = 122
+End
+
+VeryEasy "sweet_ROLLZ"
+        VoicePitch = 92
+End
+
+VeryEasy "самый большой жест"
+        VoicePitch = 100
+End
+
+VeryEasy "大卫"
+        VoicePitch = 102
+End
+
+VeryEasy RUSHB
+        VoicePitch = 104
+End
+
+VeryEasy "WallE"
+	VoicePitch = 100
+End
+
+VeryEasy HenryOzz
+	VoicePitch = 120
+End
+
+VeryEasy Pronxzey
+	VoicePitch = 112
+End
+
+VeryEasy Massive
+	VoicePitch = 125
+End
+
+VeryEasy Amen
+	VoicePitch = 110
+End
+
+VeryEasy Dys
+	VoicePitch = 100
+End
+
+VeryEasy james-
+	VoicePitch = 112
+End
+
+VeryEasy Gez
+	VoicePitch = 121
+End
+
+VeryEasy Hamster
+	VoicePitch = 99
+End
+
+VeryEasy Xlixity
+	VoicePitch = 119
+End
+
+VeryEasy Bojero
+	VoicePitch = 118
+End
+
+VeryEasy ChiefRunningwater
+	VoicePitch = 117
+End
+
+VeryEasy Cshunter
+	VoicePitch = 116
+End
+
+VeryEasy "GET YOUR HEAD DOWN"
 	VoicePitch = 110
 End
